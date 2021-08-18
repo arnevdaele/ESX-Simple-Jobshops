@@ -11,12 +11,12 @@ Config.Shops = {
         ['Items'] = {
             [1] = {
                 ['Name'] = 'carkey',
-                ['Label'] = 'Autosleutels',
+                ['Label'] = 'Car key',
                 ['Price'] = 250
             },
             [2] = {
-                ['Name'] = 'pinpas',
-                ['Label'] = 'Pinpas',
+                ['Name'] = 'bankcard',
+                ['Label'] = 'Bankcard',
                 ['Price'] = 250
             }
         },
