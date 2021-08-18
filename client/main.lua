@@ -75,7 +75,7 @@ openShop = function(currentShop)
 				{label = 'Yes', value = 'yes'}
 		}}, function(data2, menu2)
 			if data2.current.value == 'yes' then
-				TriggerServerEvent('esx_simplejobshop', data.current.item, data.current.value, data.current.price)
+				TriggerServerEvent('esx_simplejobshop:buyItem', data.current.item, data.current.value, data.current.price)
 			end
 
 			menu2.close()
